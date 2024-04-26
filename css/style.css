@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: #b5c9cf;
+}
+header{
+    background-color: black;
+    display: flex; /* serve para usar o alinhamneto de itens e outras coisas/*/
+    flex-direction: column;
+    align-items: center;/* serve para usar o alinhamneto de itens na horizontal/*/
+
+    justify-content: center;/* serve para usar o alinhamneto de itens na vertical/*/
+
+    height: 200px;
+}
+header img{
+    width: 150px;
+    border: 5px solid #FFF;
+    border-radius: 200px;
+}
+header nav ul li {
+    color:#FFF;
+    text-transform: uppercase;
+    display: inline;
+    padding: 25px;
+}
+header nav {  /* nav é a barrinha com os nome/*/
+    padding: 25px;
+}
+header nav ul a {
+    text-decoration: none;
+}
+header nav ul li:hover {    
+    background-color: #b5c9cf;
+    color: black;
+    transition: 0.25s;
+    padding: 15px 25px;
+}
+/* se eu quiser aumentar a imagem ao passar o mouse /*/
+header img:hover {
+    width: 150px;
+}
+
